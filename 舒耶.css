@@ -9,7 +9,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-weight: normal;
 }
-.center{
+/* .center{
     width: 1746px;
     margin: 0 auto;
 }
@@ -21,6 +21,20 @@ header .center {
     height: 92px;
     display: flex;
     justify-content: space-between;
+} */
+.center{
+    position: relative;
+}
+.center .logo{
+    position: relative;
+    left: 50%;
+    margin-left: -60px;
+}
+.center .caidan{
+    position: absolute;
+    right: 200px;
+    top: 25px;
+
 }
 .banner {
     position: relative;
